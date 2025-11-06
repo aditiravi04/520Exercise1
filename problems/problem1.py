@@ -1,15 +1,15 @@
 # Problem Descripion
 
-def truncate_number(number: float) -> float:
-    """ Given a positive floating point number, it can be decomposed into
-    and integer part (largest integer smaller than given number) and decimals
-    (leftover part always smaller than 1).
+# def truncate_number(number: float) -> float:
+#     """ Given a positive floating point number, it can be decomposed into
+#     and integer part (largest integer smaller than given number) and decimals
+#     (leftover part always smaller than 1).
 
-    Return the decimal part of the number.
-    >>> truncate_number(3.5)
-    0.5
-    """
-    return
+#     Return the decimal part of the number.
+#     >>> truncate_number(3.5)
+#     0.5
+#     """
+#     return
 
 # Self-planning prompt: Before writing any code, create a clear plan for how to solve the following problem, then implement it.
 # 1) Write step-by-step plan describing how you will solve the problem (hint: break down into smaller steps based on what the end goal requirements are)

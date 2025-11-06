@@ -1,15 +1,15 @@
-# Problem Descripion
+# # Problem Descripion
 
-def count_upper(s):
-    """
-    Given a string s, count the number of uppercase vowels in even indices.
+# def count_upper(s):
+#     """
+#     Given a string s, count the number of uppercase vowels in even indices.
 
-    For example:
-    count_upper('aBCdEf') returns 1
-    count_upper('abcdefg') returns 0
-    count_upper('dBBE') returns 0
-    """
-    return
+#     For example:
+#     count_upper('aBCdEf') returns 1
+#     count_upper('abcdefg') returns 0
+#     count_upper('dBBE') returns 0
+#     """
+#     return
 
 # CoT prompt: 
 # 1. Identify what to count — uppercase vowels (A, E, I, O, U) that appear at even indices in the string.

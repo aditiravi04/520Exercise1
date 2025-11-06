@@ -1,16 +1,16 @@
 # Problem Descripion
 
-def multiply(a, b):
-    """Complete the function that takes two integers and returns
-    the product of their unit digits.
-    Assume the input is always valid.
-    Examples:
-    multiply(148, 412) should return 16.
-    multiply(19, 28) should return 72.
-    multiply(2020, 1851) should return 0.
-    multiply(14,-15) should return 20.
-    """
-    return
+# def multiply(a, b):
+#     """Complete the function that takes two integers and returns
+#     the product of their unit digits.
+#     Assume the input is always valid.
+#     Examples:
+#     multiply(148, 412) should return 16.
+#     multiply(19, 28) should return 72.
+#     multiply(2020, 1851) should return 0.
+#     multiply(14,-15) should return 20.
+#     """
+#     return
 
 # Self-planning prompt: Before writing any code, create a clear plan for how to solve the following problem, then implement it.
 # 1) Write step-by-step plan describing how you will solve the problem (hint: break down into smaller steps based on what the end goal requirements are)

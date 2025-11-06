@@ -1,29 +1,29 @@
-# Problem Descripion
+# # Problem Descripion
 
-def even_odd_palindrome(n):
-    """
-    Given a positive integer n, return a tuple that has the number of even and odd
-    integer palindromes that fall within the range(1, n), inclusive.
+# def even_odd_palindrome(n):
+#     """
+#     Given a positive integer n, return a tuple that has the number of even and odd
+#     integer palindromes that fall within the range(1, n), inclusive.
 
-    Example 1:
+#     Example 1:
 
-    Input: 3
-    Output: (1, 2)
-    Explanation:
-    Integer palindrome are 1, 2, 3. one of them is even, and two of them are odd.
+#     Input: 3
+#     Output: (1, 2)
+#     Explanation:
+#     Integer palindrome are 1, 2, 3. one of them is even, and two of them are odd.
 
-    Example 2:
+#     Example 2:
 
-    Input: 12
-    Output: (4, 6)
-    Explanation:
-    Integer palindrome are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11. four of them are even, and 6 of them are odd.
+#     Input: 12
+#     Output: (4, 6)
+#     Explanation:
+#     Integer palindrome are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11. four of them are even, and 6 of them are odd.
 
-    Note:
-    1. 1 <= n <= 10^3
-    2. returned tuple has the number of even and odd integer palindromes respectively.
-    """
-    return
+#     Note:
+#     1. 1 <= n <= 10^3
+#     2. returned tuple has the number of even and odd integer palindromes respectively.
+#     """
+#     return
 
 # CoT Prompt: Think step by step before coding:
 # 1. Understand the task: count palindromic numbers from 1 to n, separately for even and odd numbers.
@@ -44,6 +44,8 @@ def gpt_even_odd_palindrome_a(n):
     Given a positive integer n, return a tuple that has the number of even and odd
     integer palindromes that fall within the range(1, n), inclusive.
     """
+    
+    
     even_count = 0
     odd_count = 0
     
@@ -81,6 +83,7 @@ def claude_even_odd_palindrome_a(n):
     1. 1 <= n <= 10^3
     2. returned tuple has the number of even and odd integer palindromes respectively.
     """
+
     even_count = 0
     odd_count = 0
     
@@ -105,6 +108,8 @@ def gpt_even_odd_palindrome_b(n: int):
     Given a positive integer n, return a tuple that has the number of even and odd
     integer palindromes that fall within the range(1, n), inclusive.
     """
+    if not isinstance(n, int):
+        return -1
     if n < 1:
         return (0, 0)
     even = 0

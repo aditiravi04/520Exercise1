@@ -1,21 +1,21 @@
-# Problem Descripion
+# # Problem Descripion
 
-def get_closest_vowel(word):
-    """You are given a word. Your task is to find the closest vowel that stands between
-    two consonants from the right side of the word (case sensitive).
+# def get_closest_vowel(word):
+#     """You are given a word. Your task is to find the closest vowel that stands between
+#     two consonants from the right side of the word (case sensitive).
 
-    Vowels in the beginning and ending doesn't count. Return empty string if you didn't
-    find any vowel met the above condition.
+#     Vowels in the beginning and ending doesn't count. Return empty string if you didn't
+#     find any vowel met the above condition.
 
-    You may assume that the given string contains English letter only.
+#     You may assume that the given string contains English letter only.
 
-    Example:
-    get_closest_vowel("yogurt") ==> "u"
-    get_closest_vowel("FULL") ==> "U"
-    get_closest_vowel("quick") ==> ""
-    get_closest_vowel("ab") ==> ""
-    """
-    return
+#     Example:
+#     get_closest_vowel("yogurt") ==> "u"
+#     get_closest_vowel("FULL") ==> "U"
+#     get_closest_vowel("quick") ==> ""
+#     get_closest_vowel("ab") ==> ""
+#     """
+#     return
 
 # Self-planning prompt: Before writing any code, create a clear plan for how to solve the following problem, then implement it.
 # 1) Write step-by-step plan describing how you will solve the problem (hint: break down into smaller steps based on what the end goal requirements are)

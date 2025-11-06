@@ -1,14 +1,14 @@
-# Problem Descripion
+# # Problem Descripion
 
-from typing import List
-def below_zero(operations: List[int]) -> bool:
-    """ You're given a list of deposit and withdrawal operations on a bank account that starts with zero balance. Your task is to detect if at any point the balance of account fallls below zero, and at that point function should return True. Otherwise it should return False.
-    >>> below_zero([1, 2, 3])
-    False
-    >>> below_zero([1, 2, -4, 5])
-    True
-    """
-    return
+# from typing import List
+# def below_zero(operations: List[int]) -> bool:
+#     """ You're given a list of deposit and withdrawal operations on a bank account that starts with zero balance. Your task is to detect if at any point the balance of account fallls below zero, and at that point function should return True. Otherwise it should return False.
+#     >>> below_zero([1, 2, 3])
+#     False
+#     >>> below_zero([1, 2, -4, 5])
+#     True
+#     """
+#     return
 
 # Self-planning prompt: Before writing any code, create a clear plan for how to solve the following problem, then implement it.
 # 1) Write step-by-step plan describing how you will solve the problem (hint: break down into smaller steps based on what the end goal requirements are)
